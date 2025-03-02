@@ -20,11 +20,14 @@ export default function LocationDropdown() {
   };
 
   return (
-    <div className="relative flex flex-shrink-0 items-center gap-7">
+    <div
+      aria-roledescription="dropdown"
+      className="relative flex flex-shrink-0 items-center gap-7"
+    >
       <span>LOCATION</span>
       <button
         type="button"
-        className="flex w-[207px] rounded-full bg-zinc-100 px-7 py-2.5"
+        className="flex w-[207px] rounded-full bg-zinc-100 px-7 py-2.5 active:bg-zinc-300"
         onClick={handleModalOpen}
       >
         <span className="text-[22px]">{location}</span>
