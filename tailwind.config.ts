@@ -15,9 +15,10 @@ const config: Config = {
       },
       backgroundColor: {
         green: "#9DF830",
+        "card-bg": "#272727",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
 export default config;

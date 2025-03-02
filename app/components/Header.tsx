@@ -4,7 +4,7 @@ import LocationDropdown from "./LocationDropdown";
 export default function Header() {
   return (
     <header className="m-0 h-[130px]">
-      <div className="fixed inset-x-10 top-3 flex items-center rounded-full bg-zinc-200/10 px-4 py-3">
+      <div className="fixed inset-x-10 top-3 z-10 flex items-center rounded-full bg-white/30 px-4 py-3 backdrop-blur-sm">
         <Image
           src="/assets/logo-with-text.png"
           width={308}

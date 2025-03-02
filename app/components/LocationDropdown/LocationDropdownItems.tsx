@@ -22,7 +22,7 @@ export default function LocationDropdownItems({
   return (
     <ul
       aria-roledescription="dropdown-menu"
-      className="absolute right-0 top-16 flex flex-col gap-2 rounded-3xl bg-zinc-300/25 px-7 py-5 drop-shadow-md"
+      className="absolute right-0 top-16 z-10 flex flex-col gap-2 rounded-3xl bg-zinc-300 px-7 py-5 drop-shadow-md"
     >
       {locations.map((location, idx) => (
         <li key={idx} className="w-[148px]">
