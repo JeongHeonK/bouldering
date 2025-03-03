@@ -1,5 +1,8 @@
-import { location } from "@/app/constants";
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
+import { location } from "@/app/constants";
 
 type Location = keyof typeof location;
 
@@ -13,6 +16,7 @@ export default function LocationDropdownItems({
   onClose,
 }: LocationDropdownItemsProps) {
   const locations = Object.values(location);
+  const { dropdownAnimation } = useDropdownAnimation();
 
   const handleClick = (location: Location) => {
     onClose();
@@ -22,7 +26,7 @@ export default function LocationDropdownItems({
   return (
     <ul
       aria-roledescription="dropdown-menu"
-      className="absolute right-0 top-16 z-10 flex flex-col gap-2 rounded-3xl bg-zinc-300 px-7 py-5 drop-shadow-md"
+      className={`absolute right-0 top-16 z-10 flex flex-col gap-2 rounded-3xl bg-zinc-100 px-7 py-5 drop-shadow-md transition-all duration-300 ${dropdownAnimation}`}
     >
       {locations.map((location, idx) => (
         <li key={idx} className="w-[148px]">
@@ -38,3 +42,15 @@ export default function LocationDropdownItems({
     </ul>
   );
 }
+
+const useDropdownAnimation = () => {
+  const [dropdownAnimation, setDropdownAnimation] = useState(
+    "overflow-hidden opacity-0 -translate-y-10",
+  );
+
+  useState(() => {
+    setTimeout(() => setDropdownAnimation("opacity-100"));
+  });
+
+  return { dropdownAnimation };
+};

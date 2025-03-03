@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function DescriptionContext() {
   return (
-    <div className="flex items-center justify-center gap-24">
+    <div className="flex w-10/12 items-center justify-center md:gap-10 lg:gap-24">
       <div className="w-[574px]">
         <h4 className="mb-10 text-5xl font-bold">
           Buy coffee for a host,
