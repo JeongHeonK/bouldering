@@ -17,6 +17,9 @@ importers:
       react-dom:
         specifier: ^18
         version: 18.3.1(react@18.3.1)
+      swiper:
+        specifier: ^11.2.4
+        version: 11.2.4
       tailwind-scrollbar-hide:
         specifier: ^2.0.0
         version: 2.0.0(tailwindcss@3.4.17)
@@ -2350,6 +2353,10 @@ packages:
     resolution: {integrity: sha512-OoohrmuUlBs8B8o6MB2Aevn+pRIH9zDALSR+6hhqVfa6fRwG/Qw9VUMSMW9VNg2CFc/MTIfabtdOVl9ODIJjpw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
+
+  swiper@11.2.4:
+    resolution: {integrity: sha512-DTtglrsFfMYytid+oNy4QI3t2N2+XhhwSYbnyOhlwBmvY8Bkoj3ombK1/b80w8vDpQ+Lqlnbm+0737+i32MrcA==}
+    engines: {node: '>= 4.7.0'}
 
   tailwind-scrollbar-hide@2.0.0:
     resolution: {integrity: sha512-lqiIutHliEiODwBRHy4G2+Tcayo2U7+3+4frBmoMETD72qtah+XhOk5XcPzC1nJvXhXUdfl2ajlMhUc2qC6CIg==}
@@ -5180,6 +5187,8 @@ snapshots:
       css-what: 6.1.0
       csso: 5.0.5
       picocolors: 1.1.1
+
+  swiper@11.2.4: {}
 
   tailwind-scrollbar-hide@2.0.0(tailwindcss@3.4.17):
     dependencies:

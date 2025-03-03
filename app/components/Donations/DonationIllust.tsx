@@ -1,8 +1,8 @@
 export default function DonationIllust() {
   return (
-    <div className="h-[251px] overflow-hidden">
+    <div className="relative h-[251px] w-full max-w-[1808px] overflow-hidden">
       <svg
-        className="relative"
+        className="absolute left-1/2 -translate-x-1/2"
         width="1808"
         height="430"
         viewBox="0 0 1808 430"

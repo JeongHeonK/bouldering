@@ -16,6 +16,13 @@ const config: Config = {
       backgroundColor: {
         green: "#9DF830",
         "card-bg": "#272727",
+        lightGray: "#F9F9F9",
+      },
+      backgroundImage: {
+        seoul: "url('/seoul/coverSeoul.png')",
+        kl: "url('/kl/CoverKL.png')",
+        manila: "url('/manila/coverManila.png')",
+        tokyo: "url('/tokyo/coverTokyo.png')",
       },
     },
   },
