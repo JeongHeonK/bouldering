@@ -20,7 +20,7 @@ const config: Config = {
       },
       backgroundImage: {
         seoul: "url('/seoul/coverSeoul.png')",
-        kl: "url('/kl/CoverKL.png')",
+        kl: "url('/kl/coverKL.png')",
         manila: "url('/manila/coverManila.png')",
         tokyo: "url('/tokyo/coverTokyo.png')",
       },

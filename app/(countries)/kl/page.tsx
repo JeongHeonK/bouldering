@@ -69,7 +69,7 @@ export default function Page() {
           <SwiperSlide>
             <Image
               src="/kl/kl1.png"
-              alt="seoul1"
+              alt="kl1"
               width={400}
               height={300}
               className="rounded-md"
@@ -78,7 +78,7 @@ export default function Page() {
           <SwiperSlide>
             <Image
               src="/kl/kl2.png"
-              alt="seoul1"
+              alt="kl2"
               width={400}
               height={300}
               className="rounded-md"
@@ -87,7 +87,7 @@ export default function Page() {
           <SwiperSlide>
             <Image
               src="/kl/kl3.png"
-              alt="seoul1"
+              alt="kl3"
               width={400}
               height={300}
               className="rounded-md"
@@ -96,7 +96,7 @@ export default function Page() {
           <SwiperSlide>
             <Image
               src="/kl/kl4.png"
-              alt="seoul1"
+              alt="kl4"
               width={400}
               height={300}
               className="rounded-md"
@@ -105,7 +105,7 @@ export default function Page() {
           <SwiperSlide>
             <Image
               src="/kl/kl5.png"
-              alt="seoul1"
+              alt="kl5"
               width={400}
               height={300}
               className="rounded-md"
@@ -114,7 +114,7 @@ export default function Page() {
           <SwiperSlide>
             <Image
               src="/kl/kl6.png"
-              alt="seoul1"
+              alt="kl6"
               width={400}
               height={300}
               className="rounded-md"
