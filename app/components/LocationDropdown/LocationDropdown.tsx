@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { MouseEvent, useState } from "react";
+import { useState } from "react";
 import { location } from "@/app/constants";
 import LocationDropdownItems from "./LocationDropdownItems";
 import { usePathname } from "next/navigation";
