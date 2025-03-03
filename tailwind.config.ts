@@ -19,10 +19,10 @@ const config: Config = {
         lightGray: "#F9F9F9",
       },
       backgroundImage: {
-        seoul: "url('/seoul/coverSeoul.png')",
+        seoul: "url('/seoul/CoverSeoul.png')",
         kl: "url('/kl/coverKL.png')",
         manila: "url('/manila/coverManila.png')",
-        tokyo: "url('/tokyo/coverTokyo.png')",
+        tokyo: "url('/tokyo/CoverTokyo.png')",
       },
     },
   },
