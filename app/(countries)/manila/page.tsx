@@ -68,8 +68,8 @@ export default function Page() {
         >
           <SwiperSlide>
             <Image
-              src="/tokyo/Tokyo1.png"
-              alt="seoul1"
+              src="/manila/Manila1.png"
+              alt="Manila1"
               width={400}
               height={300}
               className="rounded-md"
@@ -77,8 +77,8 @@ export default function Page() {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/manila/manila1.png"
-              alt="seoul1"
+              src="/manila/Manila2.png"
+              alt="Manila2"
               width={400}
               height={300}
               className="rounded-md"
@@ -86,17 +86,8 @@ export default function Page() {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/manila/manila2.png"
-              alt="seoul1"
-              width={400}
-              height={300}
-              className="rounded-md"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/manila/manila3.png"
-              alt="seoul1"
+              src="/manila/Manila3.png"
+              alt="Manila3"
               width={400}
               height={300}
               className="rounded-md"
