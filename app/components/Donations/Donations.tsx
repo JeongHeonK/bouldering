@@ -3,7 +3,10 @@ import DonationIllust from "./DonationIllust";
 
 export default function Donations() {
   return (
-    <section className="z-0 flex w-full flex-col items-center bg-black">
+    <section
+      className="z-0 flex w-full flex-col items-center bg-black"
+      id="donation"
+    >
       <h3 className="mt-16 text-5xl font-semibold text-white">
         Donation Channels
       </h3>

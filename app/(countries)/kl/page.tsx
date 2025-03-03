@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 export default function Page() {
   const handleClick = () => {
     window.open(
-      "https://www.meetup.com/seoulboulderingclub/",
+      "https://www.meetup.com/klboulderingclub/",
       "_blank",
       "noopener,noreferrer",
     );
