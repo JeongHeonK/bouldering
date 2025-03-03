@@ -13,11 +13,11 @@ export default function TossDonationCard() {
       <Image
         src="/assets/LogoToss.png"
         alt="toss-logo"
-        width={168}
-        height={84}
-        className="mb-5"
+        width={120}
+        height={25}
+        className="mb-5 mt-4"
       />
-      <p className="mb-5 text-center text-white">
+      <p className="mb-4 text-center text-white">
         Scan QR code
         <br />
         below
