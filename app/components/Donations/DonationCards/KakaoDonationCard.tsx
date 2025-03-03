@@ -1,13 +1,16 @@
 "use client";
 
+import { useRef } from "react";
 import Image from "next/image";
 import { useAnimationHook } from "./useAnimationHook";
 
 export default function KakaoDonationCard() {
-  const { animationClassName } = useAnimationHook(200);
+  const cardRef = useRef<HTMLDivElement>(null);
+  const { animationClassName } = useAnimationHook(200, cardRef);
 
   return (
     <div
+      ref={cardRef}
       className={`ml-10 w-[280px] flex-shrink-0 rounded-2xl bg-white px-5 py-9 transition duration-500 ${animationClassName}`}
     >
       <h4 className="mb-5 text-2xl font-bold">Main Fund</h4>

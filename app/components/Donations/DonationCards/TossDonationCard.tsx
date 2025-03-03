@@ -1,13 +1,16 @@
 "use client";
 
+import { useRef } from "react";
 import Image from "next/image";
 import { useAnimationHook } from "./useAnimationHook";
 
 export default function TossDonationCard() {
-  const { animationClassName } = useAnimationHook(400);
+  const cardRef = useRef<HTMLDivElement>(null);
+  const { animationClassName } = useAnimationHook(400, cardRef);
 
   return (
     <div
+      ref={cardRef}
       className={`bg-card-bg flex w-[287px] flex-shrink-0 flex-col items-center rounded-2xl px-5 py-9 transition duration-500 ${animationClassName}`}
     >
       <Image
