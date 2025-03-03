@@ -1,13 +1,24 @@
 "use client";
 
+import { useRef } from "react";
 import Image from "next/image";
 import { useAnimationHook } from "./useAnimationHook";
 
 export default function WiseDonationCard() {
-  const { animationClassName } = useAnimationHook(600);
+  const cardRef = useRef<HTMLDivElement>(null);
+  const { animationClassName } = useAnimationHook(600, cardRef);
+
+  const handleClick = () => {
+    window.open(
+      "https://wise.com/pay/me/vannag6",
+      "_blank",
+      "noopener,noreferrer",
+    );
+  };
 
   return (
     <div
+      ref={cardRef}
       className={`bg-card-bg flex w-[287px] flex-shrink-0 flex-col items-center rounded-2xl px-5 py-9 transition duration-500 ${animationClassName}`}
     >
       <Image
@@ -22,7 +33,10 @@ export default function WiseDonationCard() {
         <br />
         Bouldering Club”
       </p>
-      <button className="bg-green mb-10 rounded-full px-7 py-2.5 text-lg font-semibold">
+      <button
+        onClick={handleClick}
+        className="bg-green mb-10 rounded-full px-7 py-2.5 text-lg font-semibold"
+      >
         Donate on Wise
       </button>
       <Image src="/assets/wiseQr.png" alt="toss-qr" width={120} height={120} />

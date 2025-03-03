@@ -9,11 +9,7 @@ import "swiper/css/pagination";
 
 export default function Page() {
   const handleClick = () => {
-    window.open(
-      "https://www.meetup.com/seoulboulderingclub/",
-      "_blank",
-      "noopener,noreferrer",
-    );
+    window.open("https://www.line.me/ko/", "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -44,7 +40,7 @@ export default function Page() {
           onClick={handleClick}
         >
           <div className="flex flex-nowrap items-center gap-3">
-            <p>Go To Meetup</p>
+            <p>Join Line Chat</p>
             <Arrow />
           </div>
         </button>
