@@ -68,7 +68,7 @@ export default function Page() {
         >
           <SwiperSlide>
             <Image
-              src="/seoul/seoul1.png"
+              src="/seoul/seoul1.jpeg"
               alt="seoul1"
               width={400}
               height={300}
@@ -77,7 +77,7 @@ export default function Page() {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/seoul/seoul2.png"
+              src="/seoul/seoul2.jpeg"
               alt="seoul1"
               width={400}
               height={300}
@@ -86,7 +86,7 @@ export default function Page() {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/seoul/seoul3.png"
+              src="/seoul/seoul3.jpeg"
               alt="seoul1"
               width={400}
               height={300}
@@ -95,7 +95,7 @@ export default function Page() {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/seoul/seoul4.png"
+              src="/seoul/seoul4.jpeg"
               alt="seoul1"
               width={400}
               height={300}
@@ -104,7 +104,7 @@ export default function Page() {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/seoul/seoul5.png"
+              src="/seoul/seoul5.jpeg"
               alt="seoul1"
               width={400}
               height={300}
