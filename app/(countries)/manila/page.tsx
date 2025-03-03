@@ -57,18 +57,13 @@ export default function Page() {
         <Swiper
           className="mySwiper"
           modules={[Autoplay]}
-          spaceBetween={50}
+          spaceBetween={40}
           slidesPerView={3}
-          loop
-          speed={4000}
-          autoplay={{
-            delay: 0,
-            disableOnInteraction: false,
-          }}
+          style={{ paddingLeft: "10px", paddingRight: "10px" }}
         >
           <SwiperSlide>
             <Image
-              src="/manila/Manila1.png"
+              src="/manila/Manila1.jpeg"
               alt="Manila1"
               width={400}
               height={300}
@@ -77,7 +72,7 @@ export default function Page() {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/manila/Manila2.png"
+              src="/manila/Manila2.jpeg"
               alt="Manila2"
               width={400}
               height={300}
@@ -86,7 +81,7 @@ export default function Page() {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/manila/Manila3.png"
+              src="/manila/Manila3.jpeg"
               alt="Manila3"
               width={400}
               height={300}

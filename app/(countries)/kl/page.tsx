@@ -68,7 +68,7 @@ export default function Page() {
         >
           <SwiperSlide>
             <Image
-              src="/kl/kl1.png"
+              src="/kl/kl1.jpeg"
               alt="kl1"
               width={400}
               height={300}
@@ -77,7 +77,7 @@ export default function Page() {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/kl/kl2.png"
+              src="/kl/kl2.jpeg"
               alt="kl2"
               width={400}
               height={300}
@@ -86,7 +86,7 @@ export default function Page() {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/kl/kl3.png"
+              src="/kl/kl3.jpeg"
               alt="kl3"
               width={400}
               height={300}
@@ -95,7 +95,7 @@ export default function Page() {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/kl/kl4.png"
+              src="/kl/kl4.jpeg"
               alt="kl4"
               width={400}
               height={300}
@@ -104,7 +104,7 @@ export default function Page() {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/kl/kl5.png"
+              src="/kl/kl5.jpeg"
               alt="kl5"
               width={400}
               height={300}
@@ -113,7 +113,7 @@ export default function Page() {
           </SwiperSlide>
           <SwiperSlide>
             <Image
-              src="/kl/kl6.png"
+              src="/kl/kl6.jpeg"
               alt="kl6"
               width={400}
               height={300}

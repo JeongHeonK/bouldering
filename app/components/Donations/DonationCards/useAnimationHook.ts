@@ -7,7 +7,7 @@ export const useAnimationHook = (ms: number) => {
 
   useEffect(() => {
     setTimeout(() => setAnimationClassName("translate-y-0 opacity-100"), ms);
-  }, []);
+  }, [ms]);
 
   return { animationClassName };
 };

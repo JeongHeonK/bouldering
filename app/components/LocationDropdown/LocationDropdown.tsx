@@ -4,11 +4,14 @@ import Image from "next/image";
 import { useState } from "react";
 import { location } from "@/app/constants";
 import LocationDropdownItems from "./LocationDropdownItems";
+import { usePathname } from "next/navigation";
 
 type Location = keyof typeof location;
 
 export default function LocationDropdown() {
-  const [location, setLocation] = useState<Location>("Seoul");
+  const path = usePathname();
+  const initialLocation = getLocation(path);
+  const [location, setLocation] = useState<string>(initialLocation);
   const [isOpen, setIsOpen] = useState(false);
 
   const handleModalOpen = () => {
@@ -43,3 +46,11 @@ export default function LocationDropdown() {
     </div>
   );
 }
+
+const getLocation = (path: string) => {
+  const result = path.slice(1);
+
+  if (result === "kl") return "KL";
+
+  return result[0].toUpperCase().concat(result.slice(1));
+};
